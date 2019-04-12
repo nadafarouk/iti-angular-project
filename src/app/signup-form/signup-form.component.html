@@ -1,0 +1,24 @@
+<app-header></app-header>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <div class="card card-signin my-5">
+            <div class="card-body">
+              <h5 class="card-title text-center">SignUp</h5>
+              <form class="form-signin">
+                  <app-input-field  [inputLabel]="name[0]" [inputType]="name[1]" [inputPlace]="name[2]" #nameInput></app-input-field>
+                  <app-input-field  [inputLabel]="email[0]" [inputType]="email[1]" [inputPlace]="email[2]" #emailInput ></app-input-field>
+                  <app-input-field  [inputLabel]="password[0]" [inputType]="password[1]" [inputPlace]="password[2]" #passwordInput></app-input-field>
+                  <app-input-field  [inputLabel]="password[3]" [inputType]="password[1]" [inputPlace]="password[2]" #repasswordInput></app-input-field>
+                  <app-form-submit-button (submitted)="signupSubmit($event)" [title]="'Signup'"></app-form-submit-button>
+              </form>
+            </div>
+            <p class="loginhere">
+                Have already an account ? <a href="/login" class="loginhere-link">Login here</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>

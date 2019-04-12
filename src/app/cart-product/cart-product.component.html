@@ -1,0 +1,38 @@
+
+    <div class="row">
+        <div class="col">
+              <div class="card" style="width:250px;">
+                <img src="{{imageSource}}" class="card-img-top" style="width:250px; height:200px;">
+                <div class="card-body">
+                  <p class="card-text">{{productTitle}}</p>
+                  <p class="text-muted">
+                      {{productPrice}}
+                    </p>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+                    <p class="card-text">
+                      {{productDescription}}
+                    </p>
+          </div>
+        <div class="col">
+            <p class="text-uppercase card-text">{{productCompany}}</p>
+        </div>
+        <div class="col">
+            <p class="text-uppercase card-text">{{productCount}}</p>
+        </div>
+
+        <div class="col">
+                <button class="form-control d-inline" style="width:50px;" id={{ID}} (click)="addOne($event)">+</button>
+                <button class="form-control d-inline" style="width:50px;" id={{ID}} (click)="removeOne($event)">-</button>
+        </div>
+
+        <div class="col">
+            <p class="card-text">
+                {{totalPrice}}
+              </p>
+        </div>
+
+      </div>
+

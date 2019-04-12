@@ -1,0 +1,83 @@
+[
+  {
+    "index": 0,
+    "picture": "./assets/products_images/1.jpg",
+    "name": "Elisabeth Colon",
+    "price": 1599,
+    "company": "UXMOX",
+    "email": "elisabethcolon@uxmox.com",
+    "about": "Ipsum esse tempor laborum mollit irure minim excepteur dolore irure officia."
+  },
+  {
+    "index": 1,
+    "picture": "./assets/products_images/2.jpg",
+    "name": "Fletcher Lyons",
+    "price": 2132,
+    "company": "MENBRAIN",
+    "email": "fletcherlyons@menbrain.com",
+    "about": "Duis in culpa quis tempor elit incididunt id commodo nisi velit veniam."
+  },
+  {
+    "index": 2,
+    "picture": "./assets/products_images/3.jpg",
+    "name": "Emma Bauer",
+    "price": 4797,
+    "company": "ISOSURE",
+    "email": "emmabauer@isosure.com",
+    "about": "Et officia aliqua ex consequat consectetur aliquip eiusmod do laborum ."
+  },
+  {
+    "index": 3,
+    "picture": "./assets/products_images/4.jpg",
+    "name": "Terry Cooley",
+    "price": 4797,
+    "company": "HOUSEDOWN",
+    "email": "terrycooley@housedown.com",
+    "about": "Mollit culpa laborum nulla est nulla. Eiusmod cupidatat officia veniam fugiat do laborum"
+  },
+  {
+    "index": 4,
+    "picture": "./assets/products_images/5.jpeg",
+    "name": "Porter Miranda",
+    "price": 4264,
+    "company": "DIGIGEN",
+    "email": "portermiranda@digigen.com",
+    "about": "Reprehenderit Lorem dolor irure non voluptate reprehenderit amet esse reprehenderit quis proident ut do amet."
+  },
+  {
+    "index": 5,
+    "picture": "./assets/products_images/6.jpg",
+    "name": "Hughes Newton",
+    "price": 4797,
+    "company": "XUMONK",
+    "email": "hughesnewton@xumonk.com",
+    "about": "Et aute dolor eiusmod adipisicing consectetur tempor consectetur duis nostrud. Consequat ipsum consequat."
+  },
+  {
+    "index": 6,
+    "picture": "./assets/products_images/7.jpeg",
+    "name": "Fannie Holt",
+    "price": 4264,
+    "company": "KINDALOO",
+    "email": "fannieholt@kindaloo.com",
+    "about": "Lorem ad Lorem cupidatat proident. Deserunt do do occaecat ea qui ea enim velit excepteur."
+  },
+  {
+    "index": 7,
+    "picture": "./assets/products_images/9.jpeg",
+    "name": "Rosalie Oneal",
+    "price": 1599,
+    "company": "AQUASSEUR",
+    "email": "rosalieoneal@aquasseur.com",
+    "about": "Ad anim enim adipisicing aliqua veniam. Ad culpa fugiat anim sunt officia eu exercitation."
+  },
+  {
+    "index": 8,
+    "picture": "./assets/products_images/10.jpg",
+    "name": "Diana Bright",
+    "price": 3731,
+    "company": "APPLIDEC",
+    "email": "dianabright@applidec.com",
+    "about": "Aute Lorem amet velit magna incididunt ipsum in consequat incididunt pariatur. "
+  }
+]

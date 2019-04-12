@@ -1,0 +1,15 @@
+<app-header></app-header>
+  <br>
+  <div class=".container-fluid ">
+      <div *ngFor="let product of products ; index as i" class="d-inline-block">
+          <div *ngIf="i%2==0">
+            <br>
+           </div>
+                <app-singleproduct [ID]=product.index [imageSource]=product.picture [productCompany]=product.name [productTitle]=product.company [productPrice]=product.price [productDescription]=product.about >
+
+                </app-singleproduct>
+
+      </div>
+  </div>
+<app-footer></app-footer>
+

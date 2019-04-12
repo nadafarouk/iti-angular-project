@@ -1,0 +1,50 @@
+<app-header></app-header>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col">
+      <img src="{{currentProduct.picture}}" class="img-fluid" style="width:1000px; height:600px;">
+      </div>
+      <div class="col">
+          <div class="row">
+              <div class="col p-5">
+                    <div class="card p-10">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                              <div class="row p-5">
+                                  <h2>{{currentProduct.name}}</h2>
+                              </div>
+                          </h5>
+                          <h5 class="card-subtitle mb-2">
+                            - Company
+                              <div class="row p-4">
+                                  <h6>{{currentProduct.company}}</h6>
+                              </div>
+                          </h5>
+                          <h5 class="card-text">
+                            - About {{currentProduct.name}}
+                              <div class="row p-4">
+                                  <h6>{{currentProduct.about}}</h6>
+                              </div>
+                          </h5>
+                          <h5 class="card-text">
+                              - Price in USD
+                              <div class="row p-4">
+                                  <h6>{{currentProduct.price}}</h6>
+                              </div>
+                            </h5>
+
+                        </div>
+                      </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+
+              </div>
+              <div class="col">
+
+              </div>
+          </div>
+      </div>
+    </div>
+</div>

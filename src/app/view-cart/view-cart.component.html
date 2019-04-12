@@ -1,0 +1,36 @@
+<app-header></app-header>
+<div class=".container-fluid">
+
+        <div class="row">
+            <div class="col">
+              <h4>Product</h4>
+            </div>
+            <div class="col">
+              <h4>Details</h4>
+              </div>
+            <div class="col">
+              <h4>Company</h4>
+            </div>
+            <div class="col">
+                <h4>Count</h4>
+              </div>
+            <div class="col">
+              <h4>Add/Remove</h4>
+              </div>
+            <div class="col">
+              <h4>Subtotal</h4>
+            </div>
+          </div>
+
+    <div *ngIf="selectedProducts.length!=0">
+        <div *ngFor="let product of selectedProducts">
+
+            <app-cart-product [imageSource]=product.picture [productCompany]=product.company [productTitle]=product.name [productDescription]=product.about [productPrice]=product.price [ID]=product.index [totalPrice]=product.price*product.count [productCount]=product.count  (removeChild)="removeChild($event)">
+
+            </app-cart-product>
+
+            <br>
+          </div>
+    </div>
+</div>
+<app-footer></app-footer>
